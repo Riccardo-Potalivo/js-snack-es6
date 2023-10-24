@@ -77,9 +77,27 @@ const student =
     }
 ];
 
+// lista nomi in maiuscolo
+console.log("Task 1")
+
 student.forEach((el) =>
 {
     console.log(el.name.toUpperCase());
-    
+});
+
+// voti superiori a 70
+console.log("Task 2")
+
+// nome studenti over 70
+student.filter((el) =>
+{
+    if(el.grades > 70)
+    {
+        console.log(el.name);
+    }
 }
-)
+);
+
+// studenti over 70 oggetto
+const over70 = student.filter((el) => el.grades > 70);
+console.log(over70);
