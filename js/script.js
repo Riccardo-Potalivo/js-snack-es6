@@ -12,3 +12,15 @@ const vipList =
     'Amal Clooney', 
     'Maneskin'
 ]
+
+console.log(vipList);
+
+const tableVip = [];
+
+
+vipList.forEach((vip, index) =>
+{
+    console.log(vip);
+    console.log(index);
+
+})
