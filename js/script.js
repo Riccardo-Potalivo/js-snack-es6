@@ -22,5 +22,14 @@ vipList.forEach((vip, index) =>
 {
     console.log(vip);
     console.log(index);
+    const guest =
+    {
+        tableName: "Tavolo Vip",
+        guestName: vip,
+        place: index + 1
+    }
+    tableVip.push(guest);
 
 })
+
+console.log(tableVip);
