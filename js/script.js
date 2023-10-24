@@ -89,7 +89,7 @@ student.forEach((el) =>
 console.log("Task 2")
 
 // nome studenti over 70
-student.filter((el) =>
+student.forEach((el) =>
 {
     if(el.grades > 70)
     {
@@ -98,25 +98,16 @@ student.filter((el) =>
 }
 );
 
-// studenti over 70 oggetto
-const overName70 = student.filter((el) => el.grades > 70);
-console.log(overName70);
-
 
 // voti superiori a 70 e id superiore a 120
 console.log("Task 3")
 
 // nome studente con voti superiori a 70 e id superiore a 120
 
-student.filter((el) =>
+student.forEach((el) =>
 {
     if(el.grades > 70 && el.id > 120)
     {
         console.log(el.name);
     }
-}
-);
-
-
-const overName70Id120 = student.filter((el) => el.grades > 70 && el.id > 120);
-console.log(overName70Id120);
+});
