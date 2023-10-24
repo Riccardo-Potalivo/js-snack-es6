@@ -76,3 +76,10 @@ const student =
         grades: 84
     }
 ];
+
+student.forEach((el) =>
+{
+    console.log(el.name.toUpperCase());
+    
+}
+)
