@@ -38,6 +38,7 @@ console.log(tableVip);
 
 // snack 2
 
+/*
 const student = 
 [
     {
@@ -111,3 +112,40 @@ student.forEach((el) =>
         console.log(el.name);
     }
 });
+
+const over70120 = student.filter((el) => el.grades > 70 && el.id > 120);
+console.log(over70120);
+*/
+
+
+// snack 3
+
+console.log('snack 3');
+
+const bike =
+[
+    {
+        name: 'Bianchi',
+        peso: 9
+    },
+    {
+        name: 'Look',
+        peso: 7
+    },
+    {
+        name: 'Willier ',
+        peso: 6
+    },
+    {
+        name: 'Pinarello',
+        peso: 8
+    },
+    {
+        name: 'Colnago',
+        peso: 10
+    },
+    {
+        name: 'Canyon',
+        peso: 5
+    }
+]
