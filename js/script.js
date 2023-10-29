@@ -157,11 +157,11 @@ let bikeLighter = bike[0];
 
 bike.forEach(element => { (element.peso < bikeLighter.peso) ? bikeLighter = element : '' });
 
+const {name, peso} = bikeLighter;
 
-const {name, peso} = bike;
-
-console.log(bikeLighter)
-
+console.log(bikeLighter);
+console.log(`marca: ${name}`);
+console.log(`peso ${peso} kg`);
 
 
 // sanck 4
