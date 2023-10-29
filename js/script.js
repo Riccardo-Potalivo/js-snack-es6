@@ -120,6 +120,7 @@ console.log(over70120);
 
 // snack 3
 
+
 console.log('snack 3');
 
 const bike =
@@ -148,4 +149,22 @@ const bike =
         name: 'Canyon',
         peso: 5
     }
-]
+];
+
+console.log(bike)
+
+let bikeLighter = bike[0];
+
+bike.forEach(element => { (element.peso < bikeLighter.peso) ? bikeLighter = element : '' });
+
+
+const {name, peso} = bike;
+
+console.log(bikeLighter)
+
+
+
+// sanck 4
+
+console.log('snack 4');
+
